@@ -26,7 +26,9 @@ export function PortfolioHeader() {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b" : "bg-transparent"
+        isScrolled
+          ? "bg-background/80 backdrop-blur-md border-b"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-4">
@@ -36,7 +38,11 @@ export function PortfolioHeader() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <a key={item.label} href={item.href} className="text-sm font-medium hover:text-accent transition-colors">
+              <a
+                key={item.label}
+                href={item.href}
+                className="text-sm font-medium hover:text-accent transition-colors"
+              >
                 {item.label}
               </a>
             ))}
@@ -44,9 +50,15 @@ export function PortfolioHeader() {
 
           <div className="flex items-center gap-4">
             <ThemeToggle />
-            <Button variant="outline" size="sm" className="hidden md:inline-flex bg-transparent">
-              Resume
-            </Button>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="sm"
+                className="hidden md:inline-flex bg-transparent"
+              >
+                Resume
+              </Button>
+            </a>
 
             {/* Mobile Menu Button */}
             <Button
@@ -55,7 +67,11 @@ export function PortfolioHeader() {
               className="md:hidden"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {isMobileMenuOpen ? (
+                <X className="h-5 w-5" />
+              ) : (
+                <Menu className="h-5 w-5" />
+              )}
             </Button>
           </div>
         </div>
@@ -74,7 +90,11 @@ export function PortfolioHeader() {
                   {item.label}
                 </a>
               ))}
-              <Button variant="outline" size="sm" className="w-fit bg-transparent">
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-fit bg-transparent"
+              >
                 Resume
               </Button>
             </nav>
@@ -82,5 +102,5 @@ export function PortfolioHeader() {
         )}
       </div>
     </header>
-  )
+  );
 }

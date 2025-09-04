@@ -23,7 +23,7 @@ export default function HomePage() {
 
       <footer className="border-t py-8 px-4">
         <div className="max-w-6xl mx-auto text-center text-muted-foreground">
-          <p>&copy; 2024 Portfolio. Built with Next.js and Tailwind CSS.</p>
+          <p>&copy; 2025 Portfolio. Built with Next.js and Tailwind CSS by Himanthajaga.</p>
         </div>
       </footer>
     </div>

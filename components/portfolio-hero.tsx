@@ -50,7 +50,7 @@ export function PortfolioHero() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
               <a
-                href="#work"
+                href="#projects"
                 className="group inline-flex items-center px-6 py-3 text-lg font-medium rounded-full bg-accent text-white hover:bg-accent/80 transition"
               >
                 View My Work
