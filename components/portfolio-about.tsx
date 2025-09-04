@@ -3,6 +3,12 @@ import { Badge } from "@/components/ui/badge";
 
 export function PortfolioAbout() {
   const skills = [
+    "JavaScript",
+    "Java",
+    "HTML",
+    "CSS",
+    "Dart",
+    "Flutter",
     "React",
     "Next.js",
     "TypeScript",
@@ -12,6 +18,15 @@ export function PortfolioAbout() {
     "Adobe Creative Suite",
     "UI/UX Design",
     "Tailwind CSS",
+    "Git & GitHub",
+    "SQL & NoSQL Databases",
+    "RESTful APIs",
+    "Agile Methodologies",
+    "Problem Solving",
+    "Team Collaboration",
+    "Communication",
+    "Time Management",
+    "Critical Thinking",
   ];
 
   return (
@@ -24,9 +39,9 @@ export function PortfolioAbout() {
                 About Me
               </h2>
               <p className="text-lg text-muted-foreground text-pretty">
-                I'm a passionate full-stack developer and designer with over 5
-                years of experience creating digital solutions that bridge the
-                gap between beautiful design and functional technology.
+                I'm an undergraduate software engineering student at IJSE,
+                passionate about building digital solutions that blend beautiful
+                design with functional technology.
               </p>
               <p className="text-muted-foreground text-pretty">
                 My journey began with a curiosity for how things work, which
