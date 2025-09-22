@@ -33,7 +33,7 @@ export function PortfolioHeader() {
     >
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="font-bold text-xl">Portfolio</div>
+          <div className="font-bold text-xl">J A G A</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
