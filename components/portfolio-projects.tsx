@@ -48,8 +48,8 @@ export function PortfolioProjects() {
         "A recipe recommendation app that suggests meals based on user preferences and dietary restrictions.",
       image: "/mobile-banking-app.png",
       tags: ["React Native", "Node.js", "PostgreSQL", "JWT"],
-      liveUrl: "",
-      githubUrl: "#",
+      liveUrl: "https://youtu.be/GHPtuMilwSc?si=MHXyRRVvsXNZnEIu",
+      githubUrl: "https://github.com/Himanthajaga/Meal-Mate.git",
     },
   ];
 
